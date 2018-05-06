@@ -62,3 +62,4 @@ d3.csv("bubble-data.csv", function(d) {
       .text(function(d) { return d.id + "\n" + format(d.value); });
 });
 })();
+
